@@ -5,26 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
-<style>
-    body{
-        background-color: #51e79c;
-        color: #FFFF;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    nav{        
-        background-color: #ff00ea;
-    }
-    a{
-        color: #0532fa96;
-    }
-    article{
-        background-color: #f8ce12;
-    }
-    header{
-        background-color: aquamarine;
-    }
+    <style>
+        body {
+            background-color: #51e79c;
+            color: #FFFF;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
 
-</style>
+        nav {
+            background-color: #ff00ea;
+        }
+
+        a {
+            color: #0532fa96;
+        }
+
+        article {
+            background-color: #f8ce12;
+        }
+
+        header {
+            background-color: aquamarine;
+        }
+
+        #firstArticle {
+            background-color: #922727 padding: 10px;
+        }
+
+        .empWord {
+            color: #ff0000 font-weight: bold;
+        }
+    </style>
 
 
 </head>
@@ -35,18 +46,18 @@
         <a href="index.html">home</a> |
         <a href="about.html">About</a> |
         <a href="game/index.html">game</a> |
-    </Nav>         
+    </Nav>
 
-
-    <article>
-        <header>
-            <h2>welocome to my website</h2>
-        </header>
-        <p>I am steve </p>
-        <p> i have a nice iron pick</p>
-    </article>
-
-<img src="download.jpg" alt="steve">
+    <div id="firstArticle">
+        <article>
+            <header>
+                <h2>welocome to my website</h2>
+            </header>
+            <p>I am <span class="empWord">steve</span> </p>
+            <p> i have a <span class="empWord">nice</span> iron pick</p>
+        </article>
+    </div>
+    <img src="download.jpg" alt="steve">
 </body>
 
 </html>
