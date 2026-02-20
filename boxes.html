@@ -6,14 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boxes</title>
     <style>
+        body {
+            background-color: rgb(0, 0, 0);
+        }
+
+        div {
+            margin: 10px;
+            padding: 10px;
+            border: 3px solid black;
+        }
+
         #siteContent {
-            background-color: aqua;
+            background-color: rgb(255, 255, 255);
             width: 80%;
             margin: auto;
         }
 
         #header {
             font-size: 2em;
+            background-color: hotpink;
         }
 
         #navBar {
@@ -21,8 +32,20 @@
         }
 
         .navLink {
-            background-color: white;
+            background-color: rgb(255, 21, 21);
             display: inline;
+        }
+
+        .article {
+            background-color: blue;
+        }
+
+        .articleHeader {
+            background-color: indianred;
+        }
+
+        .articleContent {
+            background-color: peru;
         }
     </style>
 </head>
@@ -34,9 +57,23 @@
             <div class="navLink">Link</div>
             <div class="navLink">Link</div>
             <div class="navLink">Link</div>
-
         </div>
-    </div>
+        <div class="article">
+            <div class="articleHeader">
+                <p> Article</p>
+            </div>
+            <div class="articleContent">
+                <p>this is some text</p>
+            </div>
+        </div>
+        <div class="article">
+            <div class="articleHeader">
+                <p> Article</p>
+            </div>
+            <div class="articleContent">
+                <p>this is some text</p>
+            </div>
+
 </body>
 
 </html>
